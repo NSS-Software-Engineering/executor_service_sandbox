@@ -4,14 +4,14 @@ This Java program  showcases how ExecutorService strategies (either "cached" or 
 and the number of task changes how threads are userd and reused.
 
 ## Configuration
-
+```
 Flag name                   Description
 ("t", "type")               Executor type (cached or fixed)
 ("fs", "fixed-pool-size")   Fixed pool size
 ("sd", "sleep-delay")       Sleep delay in milliseconds
 ("sbd", "submission-delay") Submission delay in milliseconds
 ("n", "num-tasks")          Number of tasks
-
+```
 ## Example outputs
 
 ### Input ' -t fixed -fs 1 -sd 2000 -sbd 1000 -n 5'
