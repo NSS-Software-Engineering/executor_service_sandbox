@@ -14,8 +14,12 @@ Flag name                   Description
 ```
 ## Example outputs
 
-### Input ' -t fixed -fs 1 -sd 2000 -sbd 1000 -n 5'
+### Run 
 
+```
+gradle run  --args="-t fixed -fs 1 -sd 2000 -sbd 1000 -n 5"
+```
+### Output
 ```
 Using newFixedThreadPool of size 1
 Task 1 is being executed by Thread: pool-1-thread-1
@@ -31,7 +35,12 @@ Task 5 has completed.
 Thread pool-1-thread-1 ran tasks: [Task 1, Task 2, Task 3, Task 4, Task 5]
 ```
 
-### Input  '-t cached -sd 200 -sbd 10 -n 15'
+### Run  
+```
+gradle run  --args="-t cached -sd 200 -sbd 10 -n 15"
+```
+
+### Output
 
 ```
 Using newCachedThreadPool.
