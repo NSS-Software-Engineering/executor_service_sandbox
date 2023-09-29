@@ -1,7 +1,6 @@
 # Executor Service Demo Sandbox
 
-This Java program  showcases how ExecutorService strategies (either "cached" or "fixed"), and customizing task sleep , delay in submitting tasks submission delays, 
-and the number of task changes how threads are userd and reused.
+This Java program demonstrates how the choice of ExecutorService strategies (whether 'cached newCachedThreadPool' or 'fixed newFixedThreadPool'), customizing task sleep and delay in task submission, along with the total number of tasks, can influence the utilization and reuse of threads.
 
 ## Configuration
 ```
