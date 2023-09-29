@@ -16,7 +16,7 @@ Flag name                   Description
 ### Run 
 
 ```
-gradle run  --args="-t fixed -fs 1 -sd 2000 -sbd 1000 -n 5"
+gradle run  --args="--type fixed --fixed-pool-size 1 --sleep-delay 2000 --submission-delay 1000 --num-tasks 5"
 ```
 ### Output
 ```
@@ -36,7 +36,7 @@ Thread pool-1-thread-1 ran tasks: [Task 1, Task 2, Task 3, Task 4, Task 5]
 
 ### Run  
 ```
-gradle run  --args="-t cached -sd 200 -sbd 10 -n 15"
+gradle run  --args="--type cached --sleep-delay 200 --submission-delay 10 --num-tasks 15"
 ```
 
 ### Output
